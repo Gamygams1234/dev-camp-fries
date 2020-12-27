@@ -1,0 +1,54 @@
+.footer {
+
+background-color: #11122b;
+color: #cbcbcb;
+   /*flexbox container*/
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: 'Ubuntu Condensed', sans-serif;
+   flex-direction: column;
+   height: 400px;
+   margin-top: -4px;
+}
+.footer> .footer-image img {
+    width:180px;
+height: 100%;
+filter: opacity(.5)
+}
+.footer> .footer-contact-hours-wrapper span {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1em;
+    letter-spacing: 2px;
+}
+.footer> .footer-contact-hours-wrapper> .hours {
+    font-size: 0.8em;
+    color: #cea135;
+}
+.footer > .link-wrapper {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 400px;
+}
+.social-media {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width:300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social-media a {
+    color: #cbcbcb;
+    font-size: 2em;
+}
+
+.footer> .footer-contact-hours-wrapper> .phone {
+    transition: .5s;
+    text-decoration: none;
+}
+.footer> .footer-contact-hours-wrapper> .phone:hover {
+    color: #cea135;
+  
+}
