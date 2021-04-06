@@ -25,7 +25,7 @@
 }
 /* Features section styles */
 .features-section {
-    height: 400px;
+    /* height: 400px; */
     background-image: url(../Images/fries-multiply-bg.jpg);
     background-color: #cea135;   
     border-top: 10px solid white;
@@ -38,7 +38,7 @@
 }
 
 .features-section> .columns-wrapper {
-    width: 1000px;
+
     display: flex;
     justify-content: space-between;
 }

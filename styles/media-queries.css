@@ -78,4 +78,10 @@
     padding: 1.5rem 0rem;
     
 }
+.features-section> .columns-wrapper {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 }
